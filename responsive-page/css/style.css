@@ -1,0 +1,59 @@
+.col-md-4{
+	padding: 10px !important;
+}
+
+.div-1{
+	background: #00e6b8;
+	padding: 30px 30px 30px 30px;
+}
+
+.div-2{
+	padding: 30px 30px 30px 30px;
+}
+
+.p-1-1{
+	margin-top: 15px;
+	color: #99ffeb;
+}
+.form-1{
+	padding-left:150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 150px;
+}
+.div-3{
+	padding: 30px 30px 30px 30px;
+	background: #008080;
+}
+.div-4{
+	padding: 15px;
+	background: #004d4d;
+}
+
+.para-footer{
+	color: white;
+}
+
+.social{
+	color: white;
+	margin: 10px;
+}
+
+.btn-primary{
+	background: #00e6b8 !important;
+	border-color: white !important;
+}
+.container-fluid{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.navbar{
+	margin: 0 !important;
+	border-radius: 0 !important;
+	border: 0 !important;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.navbar-inverse{
+	background-color: #008080 !important
+}
