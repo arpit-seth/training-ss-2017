@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Task 1</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<h1>This is Task 1 of JS-4.</h1>
+<a href="task2.html">Check Task 2</a>
+
+<div align="center" style="background-color:#99ccff">
+<h2><u>Example of Custom <code>Alert</code> using Bootstrap classes.</u></h2>
+<h3>Alert Type : (s,i,w,d)</h3>
+<input type="text" id="alert_type">
+<h3>Alert Message :</h3>
+<textarea rows="5" cols="50" id="alert_msg"></textarea>
+<br><br><button id="btn_alert">Show Alert</button>
+</div>
+
+<div align="center" style="background-color:#99ccff">
+<h2><u>Example of Custom <code>Popup Alert</code> using Bootstrap Modals.</u></h2>
+<h3>Alert Heading</h3>
+<input type="text" id="alert_heading">
+<h3>Alert Message :</h3>
+<textarea rows="5" cols="50" id="alert_body"></textarea>
+<br><br><button id="btn_alert_popup" data-toggle="modal" data-target="#myModal_Alert">Show Popup Alert</button>
+</div>
+
+<div align="center" style="background-color:#99ccff">
+<h2><u>Example of Custom <code>Prompt</code> using Bootstrap Modals.</u></h2>
+<br><br><button id="btn_prompt" data-toggle="modal" data-target="#myModal_Prompt">Show Prompt</button>
+</div>
+
+
+
+<div id="myModal_Alert" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="a_heading">Heading</h4>
+      </div>
+      <div class="modal-body">
+        <div id="a_body">Body</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModal_Prompt" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="p_heading">Heading</h4>
+      </div>
+      <div class="modal-body">
+        <div id="p_body">Body</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript" src="js/task1.js"></script>
+</body>
+</html>
