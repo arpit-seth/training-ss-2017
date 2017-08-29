@@ -21,16 +21,16 @@ btn_submit.onclick = function(){
 	var phone_patt = /[0-9]{10}/g;
 
 	if(!name_patt.test(Name)){
-		alert("plz, enter valid name");
+		alert("Please, enter valid name.");
 	}
 	else if(!dob_patt.test(Dob)){
-		alert("plz, enter valid date");
+		alert("Please, enter valid date.");
 	}
 	else if(!email_patt.test(Email)){
-		alert("plz, enter the email in correct format. (foe ex:  username123@gmail.com)");
+		alert("Please, enter the email in correct format. (foe ex:  username123@gmail.com)");
 	}
 	else if(!phone_patt.test(Phone)){
-		alert("plz enter the valid phone no of 10 digits.");
+		alert("Please, enter the valid phone no of 10 digits.");
 	}
 	
 	else

@@ -9,9 +9,19 @@ btn_submit.onclick = function(){
 	var arrayData = str.split(" ");
 	var result_array = [];
 
-	for(var i=0;i<arrayData.length;i++){
-		if(!isNaN(arrayData[i])&&arrayData[i]!=0)
-		result_array.push(arrayData[i]);	
+	for(i in arrayData){
+		switch(arrayData[i]){
+
+			case 'null':
+			case '0':
+			case '"':
+			case 'false':
+			case 'undefined':
+			case 'NaN':
+				continue;
+			default :
+				result_array.push(arrayData[i]);		
+		}
 	}
 
 	output.innerHTML ="Resultant array is : "+result_array;

@@ -21,11 +21,11 @@ btn_submit.onclick = function(){
 	var error = 0;
 
 	if(!phone_patt.test(phone_str)){
-		err_phone.innerHTML = "plz, enter the value in format of 000-000-0000";
+		err_phone.innerHTML = "Please, enter the value in format of '000-000-0000' .";
 		error++;
 	}
 	if(!ip_patt.test(ip_str)){
-		err_ip.innerHTML = "plz, enter the value in format of 000.000.000.000";
+		err_ip.innerHTML = "Please, enter the value in format of '000.000.000.000' .";
 		error++;
 	}
 	
